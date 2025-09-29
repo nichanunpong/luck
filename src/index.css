@@ -1,0 +1,30 @@
+@import 'tailwindcss';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-white text-gray-900 antialiased;
+}
+
+/* Hero background similar to luck_template */
+.intro-hero-bg {
+  background: radial-gradient(
+      circle at 12% 100%,
+      #ffe2b0f5 1% 5px,
+      transparent 15%
+    ),
+    radial-gradient(circle at 95% -15%, #da4df166 5%, transparent 30%),
+    radial-gradient(circle at center right, #c4f5e9b2 2%, transparent 35%);
+}
+
+/* Small utilities inspired by template */
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-md bg-violet-600 px-5 py-2.5 text-white shadow hover:bg-violet-500 transition-all duration-300;
+}
+.bg-highlight {
+  @apply bg-violet-100 text-violet-900 px-1 rounded;
+}
