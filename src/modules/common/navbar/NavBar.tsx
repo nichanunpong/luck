@@ -124,14 +124,14 @@ export default function NavBar() {
                     Email
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a
                     href='/Nichanun_Luck.pdf'
                     target='_blank'
                     className='block px-4 py-2 hover:bg-gray-50'>
                     Resume
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
