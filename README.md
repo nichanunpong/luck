@@ -36,7 +36,6 @@ I’m **Nichanun “Luck” Pongpattarawit**, a Product Owner and Full-Stack Dev
 ## 📫 Contact
 - 📧 Email: **nichanun.luck@gmail.com**  
 - 💼 LinkedIn: [linkedin.com/in/nichanunpong](https://linkedin.com/in/nichanunpong)  
-- 🌐 Portfolio Website: *Coming Soon*  
 
 ---
 
