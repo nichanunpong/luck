@@ -3,7 +3,7 @@ import heroImg from '../assets/images/work/talaadthai/banner.png';
 import appImg from '../assets/images/work/talaadthai/app.png';
 import checkoutImg from '../assets/images/work/talaadthai/checkout-discount.png';
 import cmsImg from '../assets/images/work/talaadthai/cms.png';
-
+import logoImg from '../assets/images/work/talaadthai_online.png';
 export default function ExperienceTalaadthai() {
   return (
     <div>
@@ -18,7 +18,7 @@ export default function ExperienceTalaadthai() {
         <div className='relative z-10 mx-auto max-w-6xl px-6 md:px-8 h-full flex items-end pb-8'>
           <div className='text-white'>
             <img
-              src='/src/assets/images/work/talaadthai_online.png'
+              src={logoImg}
               alt='Talaadthai Online logo'
               className='h-18 md:h-18 w-auto mb-6 rounded-xl'
             />

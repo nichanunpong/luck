@@ -19,7 +19,7 @@ import { FiArrowRight } from 'react-icons/fi';
 import { FiGithub, FiLinkedin, FiMail, FiPhone } from 'react-icons/fi';
 import { AiFillMediumSquare } from 'react-icons/ai';
 import SectionTitle from '../modules/common/SectionTitle';
-
+import { Link } from 'react-router-dom';
 export default function Home() {
   return (
     <div>
@@ -96,7 +96,7 @@ export default function Home() {
       <section id='skills' className='bg-neutral-300'>
         <div className='mx-auto max-w-6xl px-8 md:px-10 py-12'>
           <SectionTitle title='Skills' align='left' />
-          <div className='mt-6 grid md:grid-cols-2 lg:grid-cols-3 gap-4'>
+          <div className='mt-6 grid md:grid-cols-1 lg:grid-cols-3 gap-4'>
             <div className='rounded-lg bg-white p-4 lg:col-span-3 space-y-1'>
               <p>
                 <span className='font-semibold text-gray-900'>
@@ -266,8 +266,8 @@ export default function Home() {
                 the customer journey.
               </p>
               <div className='mt-auto pt-5'>
-                <a
-                  href='/experience/talaadthai-online'
+                <Link
+                  to='/experience/talaadthai-online'
                   className='btn-primary font-bold group inline-flex items-center justify-center w-full rounded-md text-black px-4 py-2 hover:bg-gray-100 transition shadow-sm hover:shadow focus:outline-none focus-visible:ring-2 focus-visible:ring-white/70 focus-visible:ring-offset-2 focus-visible:ring-offset-neutral-900 gap-2'>
                   <span>View Projects</span>
                   <FiArrowRight
@@ -275,7 +275,7 @@ export default function Home() {
                     aria-hidden='true'
                     className='transition-transform group-hover:translate-x-1'
                   />
-                </a>
+                </Link>
               </div>
             </div>
 
@@ -294,8 +294,8 @@ export default function Home() {
                 departments.
               </p>
               <div className='mt-auto pt-5'>
-                <a
-                  href='/experience/viriyah'
+                <Link
+                  to='/experience/viriyah'
                   className='btn-primary font-bold group inline-flex items-center justify-center w-full rounded-md text-black px-4 py-2 hover:bg-gray-100 transition shadow-sm hover:shadow focus:outline-none focus-visible:ring-2 focus-visible:ring-white/70 focus-visible:ring-offset-2 focus-visible:ring-offset-neutral-900 gap-2'>
                   <span>View Projects</span>
                   <FiArrowRight
@@ -303,7 +303,7 @@ export default function Home() {
                     aria-hidden='true'
                     className='transition-transform group-hover:translate-x-1'
                   />
-                </a>
+                </Link>
               </div>
             </div>
 
@@ -322,8 +322,8 @@ export default function Home() {
                 results.
               </p>
               <div className='mt-auto pt-5'>
-                <a
-                  href='/experience/shareinvestor'
+                <Link
+                  to='/experience/shareinvestor'
                   className='btn-primary font-bold group inline-flex items-center justify-center w-full rounded-md text-black px-4 py-2 hover:bg-gray-100 transition shadow-sm hover:shadow focus:outline-none focus-visible:ring-2 focus-visible:ring-white/70 focus-visible:ring-offset-2 focus-visible:ring-offset-neutral-900 gap-2'>
                   <span>View Projects</span>
                   <FiArrowRight
@@ -331,7 +331,7 @@ export default function Home() {
                     aria-hidden='true'
                     className='transition-transform group-hover:translate-x-1'
                   />
-                </a>
+                </Link>
               </div>
             </div>
 
@@ -350,8 +350,8 @@ export default function Home() {
                 user satisfaction.
               </p>
               <div className='mt-auto pt-5'>
-                <a
-                  href='/experience/garena'
+                <Link
+                  to='/experience/garena'
                   className='btn-primary font-bold group inline-flex items-center justify-center w-full rounded-md text-black px-4 py-2 hover:bg-gray-100 transition shadow-sm hover:shadow focus:outline-none focus-visible:ring-2 focus-visible:ring-white/70 focus-visible:ring-offset-2 focus-visible:ring-offset-neutral-900 gap-2'>
                   <span>View Projects</span>
                   <FiArrowRight
@@ -359,7 +359,7 @@ export default function Home() {
                     aria-hidden='true'
                     className='transition-transform group-hover:translate-x-1'
                   />
-                </a>
+                </Link>
               </div>
             </div>
 
@@ -377,8 +377,8 @@ export default function Home() {
                 that streamlined project delivery.
               </p>
               <div className='mt-auto pt-5'>
-                <a
-                  href='/experience/mfec'
+                <Link
+                  to='/experience/mfec'
                   className='btn-primary font-bold group inline-flex items-center justify-center w-full rounded-md text-black px-4 py-2 hover:bg-gray-100 transition shadow-sm hover:shadow focus:outline-none focus-visible:ring-2 focus-visible:ring-white/70 focus-visible:ring-offset-2 focus-visible:ring-offset-neutral-900 gap-2'>
                   <span>View Projects</span>
                   <FiArrowRight
@@ -386,7 +386,7 @@ export default function Home() {
                     aria-hidden='true'
                     className='transition-transform group-hover:translate-x-1'
                   />
-                </a>
+                </Link>
               </div>
             </div>
 
@@ -405,8 +405,8 @@ export default function Home() {
                 and improved efficiency.
               </p>
               <div className='mt-auto pt-5'>
-                <a
-                  href='/experience/food-passion'
+                <Link
+                  to='/experience/food-passion'
                   className='btn-primary font-bold group inline-flex items-center justify-center w-full rounded-md text-black px-4 py-2 hover:bg-gray-100 transition shadow-sm hover:shadow focus:outline-none focus-visible:ring-2 focus-visible:ring-white/70 focus-visible:ring-offset-2 focus-visible:ring-offset-neutral-900 gap-2'>
                   <span>View Projects</span>
                   <FiArrowRight
@@ -414,7 +414,7 @@ export default function Home() {
                     aria-hidden='true'
                     className='transition-transform group-hover:translate-x-1'
                   />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

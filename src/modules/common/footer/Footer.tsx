@@ -1,5 +1,6 @@
 import { FiLinkedin, FiGithub, FiMail, FiYoutube } from 'react-icons/fi';
 import { AiFillMediumSquare } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -55,50 +56,49 @@ export default function Footer() {
           <p className='text-white font-medium'>My Work</p>
           <ul className='mt-3 space-y-2'>
             <li>
-              <a
-                href='/experience/talaadthai-online'
+              <Link
+                to='/experience/talaadthai-online'
                 className='hover:text-white underline underline-offset-4'>
                 Talaadthai Online
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href='/experience/viriyah'
+              <Link
+                to='/experience/viriyah'
                 className='hover:text-white underline underline-offset-4'>
                 Viriyah Insurance
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href='/experience/shareinvestor'
+              <Link
+                to='/experience/shareinvestor'
                 className='hover:text-white underline underline-offset-4'>
                 ShareInvestor
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href='/experience/garena'
+              <Link
+                to='/experience/garena'
                 className='hover:text-white underline underline-offset-4'>
                 Garena Online
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href='/experience/mfec'
+              <Link
+                to='/experience/mfec'
                 className='hover:text-white underline underline-offset-4'>
                 MFEC
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href='/experience/food-passion'
+              <Link
+                to='/experience/food-passion'
                 className='hover:text-white underline underline-offset-4'>
                 Food Passion
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
-
         <div>
           <p className='text-white font-medium'>Projects</p>
           <ul className='mt-3 space-y-2'>

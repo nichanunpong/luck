@@ -55,7 +55,7 @@ export default function ExperienceFoodPassion() {
       </section>
 
       {/* Feature section 1 */}
-      <section className='mx-auto max-w-6xl px-6 md:px-8 py-16'>
+      {/* <section className='mx-auto max-w-6xl px-6 md:px-8 py-16'>
         <div className='grid md:grid-cols-2 gap-10 items-start'>
           <div className='order-2 md:order-1'>
             <h2 className='text-2xl pt-20 md:text-4xl font-semibold'>
@@ -76,9 +76,9 @@ export default function ExperienceFoodPassion() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      {/* Feature section 2 */}
+      {/* Feature section 2
       <section className='mx-auto max-w-6xl px-6 md:px-8 py-16'>
         <div className='grid md:grid-cols-2 gap-10 items-center'>
           <div className='flex gap-6 justify-center'>
@@ -96,7 +96,7 @@ export default function ExperienceFoodPassion() {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Back link */}
       <section className='mx-auto max-w-6xl px-6 md:px-8 pb-16'>
