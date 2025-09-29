@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import heroImg from '../assets/images/work/mfec/banner.jpg';
-import logoImg from '../assets/images/work/mfec.png';
+import logoImg from '../assets/images/work/mfec.jpg';
 import aws from '../assets/images/work/mfec/aws.png';
 import cloud from '../assets/images/work/mfec/cloud.jpg';
 export default function ExperienceMFEC() {

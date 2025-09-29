@@ -1,6 +1,3 @@
-import card1 from '../assets/images/portfolio-images/card-1.png';
-import card2 from '../assets/images/portfolio-images/card-2.png';
-
 export default function CaseStudies() {
   return (
     <section className='mx-auto max-w-6xl px-4 py-16'>
@@ -15,7 +12,6 @@ export default function CaseStudies() {
 
       <div className='mt-10 grid grid-cols-1 md:grid-cols-2 gap-6'>
         <article className='rounded-xl overflow-hidden border border-gray-100 bg-white shadow-sm'>
-          <img src={card1} className='h-56 w-full object-cover' />
           <div className='p-4 space-y-2'>
             <h3 className='font-medium'>E‑commerce redesign</h3>
             <p className='text-sm text-gray-600'>
@@ -28,7 +24,6 @@ export default function CaseStudies() {
           </div>
         </article>
         <article className='rounded-xl overflow-hidden border border-gray-100 bg-white shadow-sm'>
-          <img src={card2} className='h-56 w-full object-cover' />
           <div className='p-4 space-y-2'>
             <h3 className='font-medium'>SaaS onboarding</h3>
             <p className='text-sm text-gray-600'>

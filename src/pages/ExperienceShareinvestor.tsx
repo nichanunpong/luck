@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import heroImg from '../assets/images/work/shareinvestor/banner.jpg';
-import logoImg from '../assets/images/work/shareinvestor.png';
-import web from '../assets/images/work/shareinvestor/web.png';
+import logoImg from '../assets/images/work/shareinvestor.jpg';
+import web from '../assets/images/work/shareinvestor/web.jpg';
 
 export default function ExperienceShareinvestor() {
   return (

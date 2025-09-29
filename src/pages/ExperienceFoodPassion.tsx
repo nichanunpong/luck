@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import heroImg from '../assets/images/work/foodpassion/banner.png';
-import logoImg from '../assets/images/work/foodpassion.png';
+import heroImg from '../assets/images/work/foodpassion/banner.jpg';
+import logoImg from '../assets/images/work/foodpassion.jpg';
 import flow from '../assets/images/work/foodpassion/flow.jpg';
 import dashboard from '../assets/images/work/foodpassion/dashboard.jpg';
 import img1 from '../assets/images/work/foodpassion/01.jpg';

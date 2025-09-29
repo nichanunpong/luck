@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import heroImg from '../assets/images/work/viriyah/banner.jpg';
-import logoImg from '../assets/images/work/viriyah.png';
+import logoImg from '../assets/images/work/viriyah.jpg';
 import plan from '../assets/images/work/viriyah/plan.png';
 
 export default function ExperienceViriyah() {

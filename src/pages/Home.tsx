@@ -3,12 +3,12 @@
 // import ContactForm from '../modules/contact/ContactForm';
 // import WorkTogether from '../modules/workTogether/WorkTogether';
 import heroImg from '../assets/nichanun.jpg';
-import card1 from '../assets/images/work/talaadthai_online.png';
-import card2 from '../assets/images/work/viriyah.png';
-import card3 from '../assets/images/work/shareinvestor.png';
+import card1 from '../assets/images/work/talaadthai_online.jpg';
+import card2 from '../assets/images/work/viriyah.jpg';
+import card3 from '../assets/images/work/shareinvestor.jpg';
 import card4 from '../assets/images/work/garena.png';
-import card5 from '../assets/images/work/mfec.png';
-import card6 from '../assets/images/work/foodpassion.png';
+import card5 from '../assets/images/work/mfec.jpg';
+import card6 from '../assets/images/work/foodpassion.jpg';
 import flashcard from '../assets/images/side-projects/flashcard.jpg';
 import building from '../assets/images/projects/building.jpg';
 import aboutImg from '../assets/nichanun2.jpg';

@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
 import heroImg from '../assets/images/work/talaadthai/banner.png';
 import appImg from '../assets/images/work/talaadthai/app.png';
-import checkoutImg from '../assets/images/work/talaadthai/checkout-discount.png';
+import checkoutImg from '../assets/images/work/talaadthai/checkout-discount.jpg';
 import cmsImg from '../assets/images/work/talaadthai/cms.png';
-import logoImg from '../assets/images/work/talaadthai_online.png';
+import logoImg from '../assets/images/work/talaadthai_online.jpg';
 export default function ExperienceTalaadthai() {
   return (
     <div>
