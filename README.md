@@ -1,7 +1,7 @@
 # 🌟 Portfolio – Nichanun Pongpattarawit (Luck)
 
 Welcome to my portfolio repository!  
-I’m **Nichanun “Luck” Pongpattarawit**, a Product Owner and Full-Stack Developer based in Vancouver, Canada. With over 7 years of experience across **e-commerce, insurance, gaming, and IT services**, I specialize in building scalable web applications, managing cross-functional teams, and delivering products that align with business goals and delight users.
+I’m **Nichanun “Luck” Pongpattarawit**, a Product Owner and Full-Stack Developer based in Vancouver, Canada. Experience across **e-commerce, insurance, gaming, and IT services**, I specialize in building scalable web applications, managing cross-functional teams, and delivering products that align with business goals and delight users.
 
 ---
 
