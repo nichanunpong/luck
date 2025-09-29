@@ -29,8 +29,7 @@ export default function ExperienceViriyah() {
             </h1>
             <p className='mt-2 max-w-2xl text-sm md:text-base opacity-90'>
               As a Project Manager, I led cross-functional initiatives across
-              insurance products and digital services, partnering with
-              engineering, design, and operations to deliver user-centric
+              insurance products and digital services to deliver user-centric
               outcomes on schedule.
             </p>
           </div>

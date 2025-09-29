@@ -101,7 +101,7 @@ export default function Home() {
               <p>
                 <span className='font-semibold text-gray-900'>
                   Agile &amp; Product Management:
-                </span>{' '}
+                </span>
                 <span className='text-sm text-gray-700'>
                   Product Backlog Management, User Stories &amp; Acceptance
                   Criteria, Roadmap Planning, Sprint Leadership (Scrum/Kanban),
@@ -111,7 +111,7 @@ export default function Home() {
               <p>
                 <span className='font-semibold text-gray-900'>
                   Project Management Tools:
-                </span>{' '}
+                </span>
                 <span className='text-sm text-gray-700'>
                   Jira, Confluence, Microsoft Project, Smartsheet, Asana, Trello
                 </span>
