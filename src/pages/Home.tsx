@@ -238,6 +238,20 @@ export default function Home() {
                 contributing 10+ hours weekly using AI tools to support
                 community engagement and event operations.
               </p>
+              <div className='mt-4'>
+                <a
+                  href='https://vanaisummit.com/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='btn-primary font-bold group inline-flex items-center gap-2 rounded-md text-black px-4 py-2 hover:bg-gray-100 transition shadow-sm hover:shadow'>
+                  <span>View Website</span>
+                  <FiArrowRight
+                    size={16}
+                    aria-hidden='true'
+                    className='transition-transform group-hover:translate-x-1'
+                  />
+                </a>
+              </div>
             </div>
           </div>
         </div>
