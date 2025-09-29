@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Routes, Route } from 'react-router-dom';
 import Main from './layouts/Main';
 import Home from './pages/Home';
 import SideProjects from './pages/SideProjects';
@@ -13,8 +13,10 @@ import ExperienceFoodPassion from './pages/ExperienceFoodPassion';
 import './index.css';
 
 export default function App() {
+  const UseRouter =
+    import.meta.env.BASE_URL !== '/' ? HashRouter : BrowserRouter;
   return (
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <UseRouter>
       <Main>
         <Routes>
           <Route path='/' element={<Home />} />
@@ -38,6 +40,6 @@ export default function App() {
           />
         </Routes>
       </Main>
-    </BrowserRouter>
+    </UseRouter>
   );
 }
