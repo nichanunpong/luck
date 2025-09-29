@@ -1,73 +1,43 @@
-# React + TypeScript + Vite
+# 🌟 Portfolio – Nichanun Pongpattarawit (Luck)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio repository!  
+I’m **Nichanun “Luck” Pongpattarawit**, a Product Owner and Full-Stack Developer based in Vancouver, Canada. With over 7 years of experience across **e-commerce, insurance, gaming, and IT services**, I specialize in building scalable web applications, managing cross-functional teams, and delivering products that align with business goals and delight users.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 About Me
+- 🎓 Post-Degree Diploma in **Data Analytics** (Douglas College, Vancouver)  
+- 💻 Experience as **Product Owner, Project Manager, and Full-Stack Developer**  
+- 🌐 Volunteer **Full-Stack Developer @ AI Summit Vancouver** (agenda pages, QR code check-in, event site enhancements)  
+- ☁️ Skilled in **React, Next.js, Node.js, Prisma, PostgreSQL, MongoDB, Docker, AWS, Laravel (PHP)**  
+- 📊 Passionate about **data analytics, investor relations, and building SaaS/web apps**  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+**Frontend:** React, Next.js, TypeScript, Tailwind CSS  
+**Backend:** Node.js, Express, PHP (Laravel)  
+**Databases:** PostgreSQL, MySQL, MongoDB, Prisma ORM  
+**DevOps & Cloud:** AWS (Lambda, S3, DynamoDB, EC2), Docker  
+**Tools:** Jira, Confluence, Figma, GitHub, Postman  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📂 Featured Projects
+- **[Talaadthai Online](#)** – E-commerce platform improving the customer journey  
+- **[Viriyah Insurance](#)** – Car insurance IT projects ensuring compliance and efficiency  
+- **[ShareInvestor](#)** – Agile PMO projects driving delivery and process improvement  
+- **[Flashcard App](https://flashcard-frontend-beta.vercel.app/)** – A simple, fast spaced-repetition flashcard app (create, play, listen to audio)  
+- **[Superstore Dashboard](#)** – Data visualization project with Tableau  
+- **[Building Permits](https://nichanunpong.github.io/buildingpermits/)** – Data exploration project  
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 📫 Contact
+- 📧 Email: **nichanun.luck@gmail.com**  
+- 💼 LinkedIn: [linkedin.com/in/nichanunpong](https://linkedin.com/in/nichanunpong)  
+- 🌐 Portfolio Website: *Coming Soon*  
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+⭐️ Feel free to explore my projects, fork this repo, or reach out if you’d like to collaborate!  
