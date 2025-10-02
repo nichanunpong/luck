@@ -4,12 +4,6 @@ import backlog from '../assets/images/blog/backlog.jpg';
 export default function BlogCreateBacklogPO() {
   return (
     <article className='mx-auto max-w-3xl px-4 py-12 prose prose-gray article-content'>
-      <nav className='mb-6 text-sm'>
-        <Link to='/blog' className='text-gray-700 hover:text-gray-900'>
-          ← Back to Blog
-        </Link>
-      </nav>
-
       <header>
         <h1>How to Create a Product Backlog</h1>
         <p className='text-gray-600'>
@@ -262,6 +256,14 @@ export default function BlogCreateBacklogPO() {
           If clarity is lacking, refine until clear—or remove the item.
         </p>
       </section>
+
+      <div className='mt-10'>
+        <Link
+          to='/blog'
+          className='inline-flex items-center rounded-md border border-gray-300 px-4 py-2 hover:bg-gray-50'>
+          ← Back to Blog
+        </Link>
+      </div>
     </article>
   );
 }
