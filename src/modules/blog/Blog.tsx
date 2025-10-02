@@ -1,30 +1,38 @@
 import SectionTitle from '../common/SectionTitle';
-import blog1 from '../../assets/images/blog/blog-1.jpg';
-import blog2 from '../../assets/images/blog/blog-2.jpg';
-import blog3 from '../../assets/images/blog/blog-3.jpg';
+import { Link } from 'react-router-dom';
+import agile from '../../assets/images/blog/agile.jpg';
+import backlog from '../../assets/images/blog/backlog.jpg';
+import qa from '../../assets/images/blog/qa.jpg';
 
 const posts = [
   {
     id: 1,
-    title: 'Designing delightful microinteractions',
-    image: blog1,
-    excerpt: "Small details make big differences. Here's how I approach them.",
+    title: 'Agile: More Than a Methodology, It’s a Mindset',
+    image: agile,
+    excerpt:
+      'Agile as a mindset for faster delivery, learning, and customer focus.',
+    to: '/blog/agile-methodology',
   },
   {
     id: 2,
-    title: 'A practical guide to web performance',
-    image: blog2,
-    excerpt: 'From budgets to metrics — tips that work on real projects.',
+    title: 'How to Create a Product Backlog',
+    image: backlog,
+    excerpt:
+      'A practical, value-first approach to building and refining a backlog.',
+    to: '/blog/create-backlog-po',
   },
   {
     id: 3,
-    title: 'Accessible UI patterns in React',
-    image: blog3,
-    excerpt: 'Common pitfalls and how to avoid them using modern tooling.',
+    title: 'Why Quality Assurance Matters',
+    image: qa,
+    excerpt:
+      'QA enables fast, reliable delivery by protecting quality and trust.',
+    to: '/blog/why-qa-matters',
   },
 ];
 
 export default function Blog() {
+  const sortedPosts = [...posts].sort((a, b) => b.id - a.id);
   return (
     <section
       className='mx-auto max-w-6xl px-4 py-16'
@@ -37,21 +45,27 @@ export default function Blog() {
       />
 
       <div className='mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
-        {posts.map((post) => (
+        {sortedPosts.map((post) => (
           <article
             key={post.id}
-            className='rounded-xl overflow-hidden border border-gray-100 bg-white shadow-sm'>
+            className='rounded-xl overflow-hidden border border-gray-100 bg-white shadow-sm flex flex-col h-full'>
             <img
               src={post.image}
               alt={post.title}
               className='h-44 w-full object-cover'
             />
-            <div className='p-4 space-y-2'>
+            <div className='p-4 space-y-2 flex flex-col flex-1'>
               <h3 className='font-medium'>{post.title}</h3>
               <p className='text-sm text-gray-600'>{post.excerpt}</p>
-              <a href='#' className='text-sm text-gray-900 underline'>
-                Read more
-              </a>
+              {post.to ? (
+                <Link
+                  to={post.to}
+                  className='btn-primary font-bold inline-flex items-center gap-2 rounded-md px-4 py-2 transition shadow-sm hover:shadow mt-auto self-start'>
+                  Read more
+                </Link>
+              ) : (
+                <span className='text-sm text-gray-500'>Coming soon</span>
+              )}
             </div>
           </article>
         ))}

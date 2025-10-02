@@ -28,3 +28,44 @@ body {
 .bg-highlight {
   @apply bg-violet-100 text-violet-900 px-1 rounded;
 }
+
+/* Blog article readable line spacing */
+.article-content {
+  @apply leading-relaxed;
+}
+.article-content p,
+.article-content li {
+  @apply leading-7 md:leading-8;
+}
+.article-content section {
+  @apply space-y-4 md:space-y-6;
+}
+.article-content ul {
+  @apply space-y-2;
+}
+
+/* Tweak article images to be slightly smaller than container */
+.article-content img {
+  @apply w-full max-w-xl mx-auto rounded-md my-6;
+}
+
+/* Consistent heading scale for blog articles */
+.article-content h1 {
+  @apply text-3xl md:text-3xl font-bold tracking-tight;
+  margin-bottom: 0.5rem;
+}
+.article-content h2 {
+  @apply text-2xl md:text-2xl font-semibold;
+}
+.article-content h3 {
+  @apply text-xl md:text-xl font-semibold;
+}
+
+/* Reduce space below h2 within articles */
+.article-content h2 {
+  margin-top: 1.5rem; /* ~mt-6 */
+  margin-bottom: 0.25rem; /* ~mb-1 */
+}
+.article-content h2 + * {
+  margin-top: 0.25rem !important; /* tighten first element after h2 */
+}

@@ -10,6 +10,10 @@ import ExperienceShareinvestor from './pages/ExperienceShareinvestor';
 import ExperienceGarena from './pages/ExperienceGarena';
 import ExperienceMFEC from './pages/ExperienceMFEC';
 import ExperienceFoodPassion from './pages/ExperienceFoodPassion';
+import BlogPage from './pages/Blog';
+import BlogAgileMethodology from './pages/BlogAgileMethodology';
+import BlogCreateBacklogPO from './pages/BlogCreateBacklogPO';
+import BlogWhyQAMatters from './pages/BlogWhyQAMatters';
 import './index.css';
 
 export default function App() {
@@ -18,6 +22,16 @@ export default function App() {
       <Main>
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/blog' element={<BlogPage />} />
+          <Route
+            path='/blog/agile-methodology'
+            element={<BlogAgileMethodology />}
+          />
+          <Route
+            path='/blog/create-backlog-po'
+            element={<BlogCreateBacklogPO />}
+          />
+          <Route path='/blog/why-qa-matters' element={<BlogWhyQAMatters />} />
           <Route path='/side-projects' element={<SideProjects />} />
           <Route path='/case-studies' element={<CaseStudies />} />
           <Route path='/contact' element={<Contact />} />

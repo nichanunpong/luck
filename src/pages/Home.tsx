@@ -27,8 +27,8 @@ export default function Home() {
         <div className='mx-auto max-w-6xl px-8 md:px-10 pt-10 lg:pt-32 pb-16 grid lg:grid-cols-2 gap-10 items-center'>
           <div className='order-2 lg:order-2 -mt-2 md:-mt-4 lg:-mt-38'>
             <p className='text-2xl sm:text-2xl xl:text-3xl font-semibold'>
-              👋 I’m Luck , a Product Owner with a tech background, driven by
-              design, users, and impact.
+              👋 I’m Luck , a Product Owner and QA professional with a tech
+              background, driven by design, users, and impact.
             </p>
             <p className='text-sm sm:text-base lg:text-[18px] my-6'>
               Experience across
@@ -176,7 +176,7 @@ export default function Home() {
                   Luck (Nichanun Pong)
                 </span> —{' '}
                 <span className='bg-highlight'>
-                  a Product Owner and Project Manager{' '}
+                  a Product Owner, Project Manager and QA professional
                 </span>
                 with 5+ years of experience, plus 5+ years as a Software
                 Developer in e-commerce, insurance, gaming, and IT services,

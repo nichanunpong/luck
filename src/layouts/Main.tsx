@@ -3,6 +3,7 @@ import Footer from '../modules/common/footer/Footer';
 import type { ReactNode } from 'react';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import ScrollToTopButton from '../modules/common/ScrollToTopButton';
 
 type MainProps = {
   children: ReactNode;
@@ -19,6 +20,7 @@ export default function Main({ children }: MainProps) {
     <div className='min-h-screen flex flex-col'>
       <NavBar />
       <main className='flex-1'>{children}</main>
+      <ScrollToTopButton />
       <Footer />
     </div>
   );

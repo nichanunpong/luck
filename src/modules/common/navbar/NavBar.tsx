@@ -25,6 +25,14 @@ export default function NavBar() {
             Home
           </NavLink>
 
+          <NavLink
+            to='/blog'
+            className={({ isActive }) =>
+              isActive ? 'text-gray-900 font-medium' : 'hover:text-gray-900'
+            }>
+            Blog
+          </NavLink>
+
           {/* My Work dropdown */}
           <div className='relative group'>
             <button className='hover:text-gray-900'>My Work</button>
@@ -155,6 +163,15 @@ export default function NavBar() {
                 isActive ? 'text-gray-900 font-medium' : 'hover:text-gray-900'
               }>
               Home
+            </NavLink>
+
+            <NavLink
+              to='/blog'
+              onClick={close}
+              className={({ isActive }) =>
+                isActive ? 'text-gray-900 font-medium' : 'hover:text-gray-900'
+              }>
+              Blog
             </NavLink>
 
             {/* My Work (mobile) */}
