@@ -103,9 +103,22 @@ export default function Home() {
                   Agile &amp; Product Management:
                 </span>
                 <span className='text-sm text-gray-700'>
+                  {' '}
                   Product Backlog Management, User Stories &amp; Acceptance
                   Criteria, Roadmap Planning, Sprint Leadership (Scrum/Kanban),
                   Software Development Life Cycle (SDLC), Waterfall
+                </span>
+              </p>
+
+              <p>
+                <span className='font-semibold text-gray-900'>
+                  QA & Testing:
+                </span>
+                <span className='text-sm text-gray-700'>
+                  {' '}
+                  Manual Testing, Regression Testing, Functional Testing,
+                  Black-box & White-box Testing, Bug Reporting, Acceptance
+                  Criteria, Test Case Design
                 </span>
               </p>
               <p>
@@ -113,10 +126,10 @@ export default function Home() {
                   Project Management Tools:
                 </span>
                 <span className='text-sm text-gray-700'>
+                  {' '}
                   Jira, Confluence, Microsoft Project, Smartsheet, Asana, Trello
                 </span>
               </p>
-
               <p>
                 <span className='font-semibold text-gray-900'>
                   Analytics &amp; Data:
@@ -178,25 +191,28 @@ export default function Home() {
                 <span className='bg-highlight'>
                   a Product Owner, Project Manager and QA professional
                 </span>
-                with 5+ years of experience, plus 5+ years as a Software
-                Developer in e-commerce, insurance, gaming, and IT services,
-                working with cross-functional teams to turn complex ideas into
-                scalable, user-centric solutions.
+                with 5+ years of experience, plus 5+ years as a
+                <span className='bg-highlight'>Software Developer</span> in
+                e-commerce, insurance, gaming, and IT services, working with
+                cross-functional teams to turn complex ideas into scalable,
+                user-centric solutions.
               </p>
               <p>
                 I specialize in
                 <span className='bg-highlight'>Agile leadership</span>,
                 data-driven decision making, and stakeholder management, with a
-                track record of boosting user retention by 20% and accelerating
-                release cycles by 30%. My foundation in software development
-                (React, Node.js, PHP, SQL, AWS, Docker) allows me to bridge
-                business goals with engineering execution, ensuring both
-                strategic vision and technical feasibility.
+                track record of boosting user retention. My foundation in
+                software development (React, Node.js, PHP, SQL, AWS, Docker)
+                allows me to bridge business goals with engineering execution,
+                ensuring both strategic vision and technical feasibility.
               </p>
               <p>
                 Beyond work, I’ve volunteered as a Full-Stack Developer at AI
                 Summit Vancouver, building event features and check-in systems
-                for 500+ participants. I’m passionate about creating products
+                for 500+ participants. I’m{' '}
+                <span className='bg-highlight'>
+                  passionate about creating products
+                </span>
                 that truly impact people’s lives.
                 {/* while continuing to grow into a Product Manager role. */}
               </p>
